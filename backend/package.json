@@ -1,0 +1,39 @@
+{
+  "name": "analytics",
+  "version": "0.1.0",
+  "bin": {
+    "analytics": "bin/analytics.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.50.0",
+    "@types/aws-lambda": "^8.10.58",
+    "@types/jest": "^26.0.4",
+    "@types/node": "14.0.19",
+    "aws-cdk": "1.50.0",
+    "aws-sdk": "^2.711.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "~3.9.6"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2": "^1.50.0",
+    "@aws-cdk/aws-athena": "^1.51.0",
+    "@aws-cdk/aws-cloudfront": "^1.50.0",
+    "@aws-cdk/aws-dynamodb": "^1.50.0",
+    "@aws-cdk/aws-iam": "^1.50.0",
+    "@aws-cdk/aws-kinesisfirehose": "^1.50.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.50.0",
+    "@aws-cdk/aws-s3": "^1.50.0",
+    "@aws-cdk/core": "1.50.0",
+    "athena-express": "^6.0.3",
+    "bowser": "^2.9.0",
+    "source-map-support": "^0.5.19"
+  }
+}
